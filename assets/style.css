@@ -17,6 +17,22 @@ section {
     width: 60%;
 }
 
+footer {
+    margin-top: 100px;
+}
+
+.footer-link {
+    opacity: 75%;
+}
+
+.footer-link:hover{
+    opacity: 100%;
+}
+
+.copyright {
+    margin-top: 100px;
+}
+
 @media screen and (max-width:510px){
     .hero .col img{
         width: 100%;
