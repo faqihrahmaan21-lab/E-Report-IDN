@@ -29,10 +29,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- cdn animate css -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   </head>
+
+  <!-- css aos -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-primary py-4">
+    <nav class="navbar navbar-expand-lg bg-primary py-4 animate__animated animate__fadeIn ">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center gap-2" href="#">
           <img
@@ -80,9 +86,9 @@
     <section id="hero">
       <div class="container">
         <div
-          class="hero row align-items-center gap-5 flex-nowrap flex-column flex-lg-row text-center text-lg-start"
+          class="hero row align-items-center gap-5 flex-nowrap flex-column flex-lg-row text-center text-lg-start overflow-hidden"
         >
-          <div class="col">
+          <div class="col animate__animated animate__fadeInLeft animate__delay-1s">
             <h1 class="fw-bold">
               Selamat Datang <br> di
               <span class="text-primary">Aplikasi IDN E-Report 2026</span> Forum
@@ -100,7 +106,7 @@
               >
             </div>
           </div>
-          <div class="col d-flex justify-content-center justify-content-lg-end">
+          <div class="col d-flex justify-content-center justify-content-lg-end animate__animated animate__fadeInRight animate__delay-2s">
             <img src="./assets/images/report image.png" alt="image report" />
           </div>
         </div>
@@ -112,14 +118,14 @@
       <div class="container text-center mt-5">
         <div class="row">
           <div class="col">
-            <h1 class="text-primary fw-bold mb-4">About Us</h1>
-            <p class="text-secondary lh-lg mb-4">
+            <h1 data-aos="fade-up" data-aos-duration="1000" class="text-primary fw-bold mb-4">About Us</h1>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="text-secondary lh-lg mb-4">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Obcaecati doloribus eveniet earum sit rerum nihil, repellendus
               minus? Odio pariatur velit totam aliquam? Eius animi, rerum nemo
               aut adipisci dolorem eligendi.
             </p>
-            <img src="./assets/images/team-image.png" alt="" />
+            <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" src="./assets/images/team-image.png" alt="" />
           </div>
         </div>
       </div>
@@ -129,8 +135,8 @@
     <section id="services">
       <div class="container mt-5">
         <div>
-          <h1 class="text-primary fw-bold">Our Services</h1>
-          <p class="lh-lg">
+          <h1 data-aos="fade-right" data-aos-duration="1000" class="text-primary fw-bold">Our Services</h1>
+          <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" class="lh-lg">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
             tenetur, temporibus asperiores quam natus magnam laudantium
             obcaecati, quisquam ullam officiis inventore, voluptas neque
@@ -138,7 +144,7 @@
           </p>
         </div>
         <div class="row p-4 p-lg-0 gap-4">
-          <div class="col bg-primary p-4 rounded-3">
+          <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600" class="col bg-primary p-4 rounded-3">
             <i class="fa-solid fa-graduation-cap text-light"></i>
             <h3 class="text-light fw-semibold mt-2">Pengaduan Akademik</h3>
             <p class="text-light lh-lg mt-4">
@@ -147,7 +153,7 @@
               placeat eaque asperiores amet?
             </p>
           </div>
-          <div class="col bg-primary p-4 rounded-3">
+          <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="750" class="col bg-primary p-4 rounded-3">
             <i class="fa-solid fa-screwdriver-wrench text-light"></i>
             <h3 class="text-light fw-semibold mt-2">Pengaduan Akademik</h3>
             <p class="text-light lh-lg mt-4">
@@ -156,7 +162,7 @@
               placeat eaque asperiores amet?
             </p>
           </div>
-          <div class="col bg-primary p-4 rounded-3">
+          <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900" class="col bg-primary p-4 rounded-3">
             <i class="fa-solid fa-user-secret text-light"></i>
             <h3 class="text-light fw-semibold mt-2">Pengaduan Akademik</h3>
             <p class="text-light lh-lg mt-4">
@@ -173,15 +179,15 @@
     <section id="recent">
       <div class="container">
         <div class="text-end mb-5">
-          <h1 class="fw-bold text-primary">Latest Report</h1>
-          <p class="lh-lg">
+          <h1 data-aos="fade-left" data-aos-duration="1000" class="fw-bold text-primary">Latest Report</h1>
+          <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400" class="lh-lg">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda
             pariatur rerum veritatis ipsa repellendus. Quaerat iure eos ipsam
             aperiam necessitatibus!
           </p>
         </div>
         <div class="row">
-          <div class="col-12 col-md-6 mb-4 col-lg-4">
+          <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="800" class="col-12 col-md-6 mb-4 col-lg-4">
             <div class="card">
               <p
                 style="background-color: rgba(0, 0, 0, 0.3)"
@@ -209,7 +215,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 mb-4 col-lg-4">
+          <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="700" class="col-12 col-md-6 mb-4 col-lg-4">
             <div class="card">
               <p
                 style="background-color: rgba(0, 0, 0, 0.3)"
@@ -237,7 +243,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 mb-4 col-lg-4">
+          <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600" class="col-12 col-md-6 mb-4 col-lg-4">
             <div class="card">
               <p
                 style="background-color: rgba(0, 0, 0, 0.3)"
@@ -279,15 +285,15 @@
     <section id="FAQ">
       <div class="container">
         <div class="row">
-          <h1 class="text-primary fw-bold">FAQ</h1>
-          <p>
+          <h1 data-aos="fade-right" data-aos-duration="1000" class="text-primary fw-bold">FAQ</h1>
+          <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Consectetur aut perspiciatis repellat officia fugiat quo dolorum,
             saepe eum illo reiciendis exercitationem optio iure provident autem.
           </p>
         </div>
         <div class="accordion mt-4" id="accordionExample">
-          <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600" class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
               <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -299,7 +305,7 @@
                     aria-expanded="true"
                     aria-controls="faq1"
                   >
-                    Accordion Item #1
+                    What Is E-Report?
                   </button>
                 </h2>
                 <div
@@ -331,8 +337,8 @@
                     data-bs-target="#faq2"
                     aria-expanded="true"
                     aria-controls="faq2"
-                  >
-                    Accordion Item #1
+                  > Can I file a report on this website?
+                    
                   </button>
                 </h2>
                 <div
@@ -365,7 +371,7 @@
                     aria-expanded="true"
                     aria-controls="faq3"
                   >
-                    Accordion Item #1
+                    Is E-Report Useful?
                   </button>
                 </h2>
                 <div
@@ -398,7 +404,7 @@
                     aria-expanded="true"
                     aria-controls="faq4"
                   >
-                    Accordion Item #1
+                    Will my report appear on this website?
                   </button>
                 </h2>
                 <div
@@ -547,5 +553,12 @@
       integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
       crossorigin="anonymous"
     ></script>
+
+    <!-- js aos -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     
+     <script>
+      AOS.init();
+     </script>
   </body>
 </html>
